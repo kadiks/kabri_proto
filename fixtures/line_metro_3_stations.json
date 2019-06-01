@@ -1,0 +1,111 @@
+{
+  "result": {
+    "stations": [
+      {
+        "slug": "gallieni+(parc+de+bagnolet)",
+        "name": "Gallieni (Parc de Bagnolet)"
+      },
+      {
+        "slug": "porte+de+bagnolet",
+        "name": "Porte de Bagnolet"
+      },
+      {
+        "slug": "gambetta",
+        "name": "Gambetta"
+      },
+      {
+        "slug": "pere+lachaise",
+        "name": "Pere-Lachaise"
+      },
+      {
+        "slug": "rue+saint+maur",
+        "name": "Rue Saint-Maur"
+      },
+      {
+        "slug": "parmentier",
+        "name": "Parmentier"
+      },
+      {
+        "slug": "republique",
+        "name": "Republique"
+      },
+      {
+        "slug": "temple",
+        "name": "Temple"
+      },
+      {
+        "slug": "arts+et+metiers",
+        "name": "Arts-et-Metiers"
+      },
+      {
+        "slug": "reaumur+sebastopol",
+        "name": "Reaumur-Sebastopol"
+      },
+      {
+        "slug": "sentier",
+        "name": "Sentier"
+      },
+      {
+        "slug": "bourse",
+        "name": "Bourse"
+      },
+      {
+        "slug": "quatre+septembre",
+        "name": "Quatre Septembre"
+      },
+      {
+        "slug": "opera",
+        "name": "Opera"
+      },
+      {
+        "slug": "havre+caumartin",
+        "name": "Havre-Caumartin"
+      },
+      {
+        "slug": "saint+lazare",
+        "name": "Saint-Lazare"
+      },
+      {
+        "slug": "europe",
+        "name": "Europe"
+      },
+      {
+        "slug": "villiers",
+        "name": "Villiers"
+      },
+      {
+        "slug": "malesherbes",
+        "name": "Malesherbes"
+      },
+      {
+        "slug": "wagram",
+        "name": "Wagram"
+      },
+      {
+        "slug": "pereire",
+        "name": "Pereire"
+      },
+      {
+        "slug": "porte+de+champerret",
+        "name": "Porte de Champerret"
+      },
+      {
+        "slug": "louise+michel",
+        "name": "Louise Michel"
+      },
+      {
+        "slug": "anatole+france",
+        "name": "Anatole-France"
+      },
+      {
+        "slug": "pont+de+levallois+becon",
+        "name": "Pont de Levallois-Becon"
+      }
+    ]
+  },
+  "_metadata": {
+    "call": "GET /stations/metros/3",
+    "date": "2019-05-25T01:09:11+02:00",
+    "version": 3
+  }
+}

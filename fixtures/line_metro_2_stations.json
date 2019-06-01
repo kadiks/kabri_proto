@@ -1,0 +1,111 @@
+{
+  "result": {
+    "stations": [
+      {
+        "slug": "nation",
+        "name": "Nation"
+      },
+      {
+        "slug": "avron",
+        "name": "Avron"
+      },
+      {
+        "slug": "alexandre+dumas",
+        "name": "Alexandre-Dumas"
+      },
+      {
+        "slug": "philippe+auguste",
+        "name": "Philippe Auguste"
+      },
+      {
+        "slug": "pere+lachaise",
+        "name": "Pere-Lachaise"
+      },
+      {
+        "slug": "menilmontant",
+        "name": "Menilmontant"
+      },
+      {
+        "slug": "couronnes",
+        "name": "Couronnes"
+      },
+      {
+        "slug": "belleville",
+        "name": "Belleville"
+      },
+      {
+        "slug": "colonel+fabien",
+        "name": "Colonel Fabien"
+      },
+      {
+        "slug": "jaures",
+        "name": "Jaures"
+      },
+      {
+        "slug": "stalingrad",
+        "name": "Stalingrad"
+      },
+      {
+        "slug": "la+chapelle",
+        "name": "La Chapelle"
+      },
+      {
+        "slug": "barbes+rochechouart",
+        "name": "Barbes-Rochechouart"
+      },
+      {
+        "slug": "anvers",
+        "name": "Anvers"
+      },
+      {
+        "slug": "pigalle",
+        "name": "Pigalle"
+      },
+      {
+        "slug": "blanche",
+        "name": "Blanche"
+      },
+      {
+        "slug": "place+de+clichy",
+        "name": "Place de Clichy"
+      },
+      {
+        "slug": "rome",
+        "name": "Rome"
+      },
+      {
+        "slug": "villiers",
+        "name": "Villiers"
+      },
+      {
+        "slug": "monceau",
+        "name": "Monceau"
+      },
+      {
+        "slug": "courcelles",
+        "name": "Courcelles"
+      },
+      {
+        "slug": "ternes",
+        "name": "Ternes"
+      },
+      {
+        "slug": "charles+de+gaulle+etoile",
+        "name": "Charles de Gaulle-Etoile"
+      },
+      {
+        "slug": "victor+hugo",
+        "name": "Victor Hugo"
+      },
+      {
+        "slug": "porte+dauphine+(marechal+de+lattre+de+tassigny)",
+        "name": "Porte Dauphine (Marechal de Lattre de Tassigny)"
+      }
+    ]
+  },
+  "_metadata": {
+    "call": "GET /stations/metros/2",
+    "date": "2019-05-25T14:00:51+02:00",
+    "version": 3
+  }
+}

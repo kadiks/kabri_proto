@@ -1,0 +1,195 @@
+{
+  "result": {
+    "stations": [
+      {
+        "slug": "saint+germain+en+laye",
+        "name": "Saint-Germain-en-Laye"
+      },
+      {
+        "slug": "le+vesinet+le+pecq",
+        "name": "Le Vesinet-Le Pecq"
+      },
+      {
+        "slug": "le+vesinet+centre",
+        "name": "Le Vesinet-Centre"
+      },
+      {
+        "slug": "chatou+croissy",
+        "name": "Chatou-Croissy"
+      },
+      {
+        "slug": "rueil+malmaison",
+        "name": "Rueil-Malmaison"
+      },
+      {
+        "slug": "nanterre+ville",
+        "name": "Nanterre-Ville"
+      },
+      {
+        "slug": "nanterre+universite",
+        "name": "Nanterre-Universite"
+      },
+      {
+        "slug": "cergy+le+haut",
+        "name": "Cergy-Le-Haut"
+      },
+      {
+        "slug": "cergy+saint+christophe",
+        "name": "Cergy-Saint-Christophe"
+      },
+      {
+        "slug": "cergy+prefecture",
+        "name": "Cergy-Prefecture"
+      },
+      {
+        "slug": "neuville+universite",
+        "name": "Neuville-Universite"
+      },
+      {
+        "slug": "conflans+fin+d'oise",
+        "name": "Conflans-Fin d'Oise"
+      },
+      {
+        "slug": "acheres+ville",
+        "name": "Acheres-Ville"
+      },
+      {
+        "slug": "poissy",
+        "name": "Poissy"
+      },
+      {
+        "slug": "acheres+grand+cormier",
+        "name": "Acheres Grand Cormier"
+      },
+      {
+        "slug": "maisons+laffitte",
+        "name": "Maisons-Laffitte"
+      },
+      {
+        "slug": "sartrouville",
+        "name": "Sartrouville"
+      },
+      {
+        "slug": "houilles+carrieres+sur+seine",
+        "name": "Houilles Carrieres-sur-Seine"
+      },
+      {
+        "slug": "nanterre+prefecture",
+        "name": "Nanterre-Prefecture"
+      },
+      {
+        "slug": "la+defense+(grande+arche)",
+        "name": "La Defense (Grande Arche)"
+      },
+      {
+        "slug": "charles+de+gaulle+etoile",
+        "name": "Charles de Gaulle-Etoile"
+      },
+      {
+        "slug": "auber",
+        "name": "Auber"
+      },
+      {
+        "slug": "chatelet+les+halles",
+        "name": "Chatelet-Les Halles"
+      },
+      {
+        "slug": "gare+de+lyon",
+        "name": "Gare de Lyon"
+      },
+      {
+        "slug": "nation",
+        "name": "Nation"
+      },
+      {
+        "slug": "vincennes",
+        "name": "Vincennes"
+      },
+      {
+        "slug": "val+de+fontenay",
+        "name": "Val de Fontenay"
+      },
+      {
+        "slug": "neuilly+plaisance",
+        "name": "Neuilly-Plaisance"
+      },
+      {
+        "slug": "bry+sur+marne",
+        "name": "Bry-sur-Marne"
+      },
+      {
+        "slug": "noisy+le+grand+(mont+d'est)",
+        "name": "Noisy-le-Grand (Mont d'Est)"
+      },
+      {
+        "slug": "noisy+champs",
+        "name": "Noisy-Champs"
+      },
+      {
+        "slug": "noisiel",
+        "name": "Noisiel"
+      },
+      {
+        "slug": "lognes",
+        "name": "Lognes"
+      },
+      {
+        "slug": "torcy",
+        "name": "Torcy"
+      },
+      {
+        "slug": "bussy+saint+georges",
+        "name": "Bussy-Saint-Georges"
+      },
+      {
+        "slug": "val+d'europe",
+        "name": "Val d'europe"
+      },
+      {
+        "slug": "marne+la+vallee+chessy",
+        "name": "Marne-la-Vallee Chessy"
+      },
+      {
+        "slug": "fontenay+sous+bois",
+        "name": "Fontenay-sous-Bois"
+      },
+      {
+        "slug": "nogent+sur+marne",
+        "name": "Nogent-sur-Marne"
+      },
+      {
+        "slug": "joinville+le+pont",
+        "name": "Joinville-le-Pont"
+      },
+      {
+        "slug": "saint+maur+creteil",
+        "name": "Saint-Maur Creteil"
+      },
+      {
+        "slug": "le+parc+de+saint+maur",
+        "name": "Le Parc de Saint-Maur"
+      },
+      {
+        "slug": "champigny",
+        "name": "Champigny"
+      },
+      {
+        "slug": "la+varenne+chennevieres",
+        "name": "La Varenne-Chennevieres"
+      },
+      {
+        "slug": "sucy+bonneuil",
+        "name": "Sucy Bonneuil"
+      },
+      {
+        "slug": "boissy+saint+leger",
+        "name": "Boissy-Saint-Leger"
+      }
+    ]
+  },
+  "_metadata": {
+    "call": "GET /stations/rers/A",
+    "date": "2019-05-23T16:11:51+02:00",
+    "version": 3
+  }
+}

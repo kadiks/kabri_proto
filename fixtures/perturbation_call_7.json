@@ -1,0 +1,189 @@
+{
+  "result": {
+    "metros": [
+      {
+        "line": "1",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 08:08, la station Concorde est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "2",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 08:07, la station Etoile est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "3",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 16:33, la station Republique est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "3B",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "4",
+        "slug": "normal_trav",
+        "title": "Travaux",
+        "message": "Dim. le trafic est interrompu sur la ligne de 05:20 à 10:00 jusqu'au 28/07/19. (travaux)"
+      },
+      {
+        "line": "5",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 16:35, la station Republique est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "6",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 08:07, la station Etoile est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "7",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "7B",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "8",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 16:36, la station Republique est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "9",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 16:38, la station Republique est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "10",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "11",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 16:39, la station Republique est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "12",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 08:08, la station Concorde est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "13",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 08:08, la station Miromesnil est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "14",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      }
+    ],
+    "rers": [
+      {
+        "line": "A",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "25/05/19, 08:07, la gare Etoile est fermée (mesure de sécurité)"
+      },
+      {
+        "line": "B",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "C",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "D",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "E",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      }
+    ],
+    "tramways": [
+      {
+        "line": "1",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "2",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "3A",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "3B",
+        "slug": "normal_trav",
+        "title": "Travaux",
+        "message": "le trafic est interrompu entre PORTE DE LA VILLETTE - CITE DES SCIENCES ET DE L'INDUSTRIE et PORTE D'ASNIERES - MARGUERITE LONG jusqu'au 26/05/19. Bus de remplacement à dispo. (travaux)"
+      },
+      {
+        "line": "5",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "6",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "7",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "8",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      }
+    ]
+  },
+  "_metadata": {
+    "call": "GET /traffic",
+    "date": "2019-05-25T17:41:57+02:00",
+    "version": 3
+  }
+}

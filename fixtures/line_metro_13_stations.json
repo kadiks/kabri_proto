@@ -1,0 +1,139 @@
+{
+  "result": {
+    "stations": [
+      {
+        "slug": "chatillon+montrouge",
+        "name": "Chatillon Montrouge"
+      },
+      {
+        "slug": "malakoff+rue+etienne+dolet",
+        "name": "Malakoff-Rue Etienne Dolet"
+      },
+      {
+        "slug": "malakoff+plateau+de+vanves",
+        "name": "Malakoff-Plateau de Vanves"
+      },
+      {
+        "slug": "porte+de+vanves",
+        "name": "Porte de Vanves"
+      },
+      {
+        "slug": "plaisance",
+        "name": "Plaisance"
+      },
+      {
+        "slug": "pernety",
+        "name": "Pernety"
+      },
+      {
+        "slug": "gaite",
+        "name": "Gaite"
+      },
+      {
+        "slug": "montparnasse+bienvenue",
+        "name": "Montparnasse-Bienvenue"
+      },
+      {
+        "slug": "duroc",
+        "name": "Duroc"
+      },
+      {
+        "slug": "saint+francois+xavier",
+        "name": "Saint-Francois-Xavier"
+      },
+      {
+        "slug": "varenne",
+        "name": "Varenne"
+      },
+      {
+        "slug": "invalides",
+        "name": "Invalides"
+      },
+      {
+        "slug": "champs+elysees+clemenceau",
+        "name": "Champs-Elysees-Clemenceau"
+      },
+      {
+        "slug": "miromesnil",
+        "name": "Miromesnil"
+      },
+      {
+        "slug": "saint+lazare",
+        "name": "Saint-Lazare"
+      },
+      {
+        "slug": "liege",
+        "name": "Liege"
+      },
+      {
+        "slug": "place+de+clichy",
+        "name": "Place de Clichy"
+      },
+      {
+        "slug": "la+fourche",
+        "name": "La Fourche"
+      },
+      {
+        "slug": "guy+moquet",
+        "name": "Guy-Moquet"
+      },
+      {
+        "slug": "porte+de+saint+ouen",
+        "name": "Porte de Saint-Ouen"
+      },
+      {
+        "slug": "garibaldi",
+        "name": "Garibaldi"
+      },
+      {
+        "slug": "mairie+de+saint+ouen",
+        "name": "Mairie de Saint-Ouen"
+      },
+      {
+        "slug": "carrefour+pleyel",
+        "name": "Carrefour-Pleyel"
+      },
+      {
+        "slug": "saint+denis+++porte+de+paris",
+        "name": "Saint-Denis - Porte de Paris"
+      },
+      {
+        "slug": "basilique+de+saint+denis",
+        "name": "Basilique de Saint-Denis"
+      },
+      {
+        "slug": "saint+denis+universite",
+        "name": "Saint-Denis-Universite"
+      },
+      {
+        "slug": "brochant",
+        "name": "Brochant"
+      },
+      {
+        "slug": "porte+de+clichy",
+        "name": "Porte de Clichy"
+      },
+      {
+        "slug": "mairie+de+clichy",
+        "name": "Mairie de Clichy"
+      },
+      {
+        "slug": "gabriel+peri",
+        "name": "Gabriel-Peri"
+      },
+      {
+        "slug": "les+agnettes",
+        "name": "Les Agnettes"
+      },
+      {
+        "slug": "asnieres+gennevilliers+les+courtilles",
+        "name": "Asnieres-Gennevilliers Les Courtilles"
+      }
+    ]
+  },
+  "_metadata": {
+    "call": "GET /stations/metros/13",
+    "date": "2019-05-23T21:21:34+02:00",
+    "version": 3
+  }
+}

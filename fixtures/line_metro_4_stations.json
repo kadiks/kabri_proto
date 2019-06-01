@@ -1,0 +1,119 @@
+{
+  "result": {
+    "stations": [
+      {
+        "slug": "porte+de+clignancourt",
+        "name": "Porte de Clignancourt"
+      },
+      {
+        "slug": "simplon",
+        "name": "Simplon"
+      },
+      {
+        "slug": "marcadet+poissonniers",
+        "name": "Marcadet-Poissonniers"
+      },
+      {
+        "slug": "chateau+rouge",
+        "name": "Chateau Rouge"
+      },
+      {
+        "slug": "barbes+rochechouart",
+        "name": "Barbes-Rochechouart"
+      },
+      {
+        "slug": "gare+du+nord",
+        "name": "Gare du Nord"
+      },
+      {
+        "slug": "gare+de+l'est+(verdun)",
+        "name": "Gare de l'Est (Verdun)"
+      },
+      {
+        "slug": "chateau+d'eau",
+        "name": "Chateau d'Eau"
+      },
+      {
+        "slug": "strasbourg+saint+denis",
+        "name": "Strasbourg-Saint-Denis"
+      },
+      {
+        "slug": "reaumur+sebastopol",
+        "name": "Reaumur-Sebastopol"
+      },
+      {
+        "slug": "etienne+marcel",
+        "name": "Etienne Marcel"
+      },
+      {
+        "slug": "les+halles",
+        "name": "Les Halles"
+      },
+      {
+        "slug": "chatelet",
+        "name": "Chatelet"
+      },
+      {
+        "slug": "cite",
+        "name": "Cite"
+      },
+      {
+        "slug": "saint+michel",
+        "name": "Saint-Michel"
+      },
+      {
+        "slug": "odeon",
+        "name": "Odeon"
+      },
+      {
+        "slug": "saint+germain+des+pres",
+        "name": "Saint-Germain des Pres"
+      },
+      {
+        "slug": "saint+sulpice",
+        "name": "Saint-Sulpice"
+      },
+      {
+        "slug": "saint+placide",
+        "name": "Saint-Placide"
+      },
+      {
+        "slug": "montparnasse+bienvenue",
+        "name": "Montparnasse-Bienvenue"
+      },
+      {
+        "slug": "vavin",
+        "name": "Vavin"
+      },
+      {
+        "slug": "raspail",
+        "name": "Raspail"
+      },
+      {
+        "slug": "denfert+rochereau",
+        "name": "Denfert-Rochereau"
+      },
+      {
+        "slug": "mouton+duvernet",
+        "name": "Mouton-Duvernet"
+      },
+      {
+        "slug": "alesia",
+        "name": "Alesia"
+      },
+      {
+        "slug": "porte+d'orleans+(general+leclerc)",
+        "name": "Porte d'Orleans (General Leclerc)"
+      },
+      {
+        "slug": "mairie+de+montrouge",
+        "name": "Mairie de Montrouge"
+      }
+    ]
+  },
+  "_metadata": {
+    "call": "GET /stations/metros/4",
+    "date": "2019-05-24T11:16:52+02:00",
+    "version": 3
+  }
+}

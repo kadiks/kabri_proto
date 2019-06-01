@@ -1,0 +1,111 @@
+{
+  "result": {
+    "stations": [
+      {
+        "slug": "chateau+de+vincennes",
+        "name": "Chateau de Vincennes"
+      },
+      {
+        "slug": "berault",
+        "name": "Berault"
+      },
+      {
+        "slug": "saint+mande",
+        "name": "Saint-Mande"
+      },
+      {
+        "slug": "porte+de+vincennes",
+        "name": "Porte de Vincennes"
+      },
+      {
+        "slug": "nation",
+        "name": "Nation"
+      },
+      {
+        "slug": "reuilly+diderot",
+        "name": "Reuilly-Diderot"
+      },
+      {
+        "slug": "gare+de+lyon",
+        "name": "Gare de Lyon"
+      },
+      {
+        "slug": "bastille",
+        "name": "Bastille"
+      },
+      {
+        "slug": "saint+paul+(le+marais)",
+        "name": "Saint-Paul (Le Marais)"
+      },
+      {
+        "slug": "hotel+de+ville",
+        "name": "Hotel de Ville"
+      },
+      {
+        "slug": "chatelet",
+        "name": "Chatelet"
+      },
+      {
+        "slug": "louvre+rivoli",
+        "name": "Louvre-Rivoli"
+      },
+      {
+        "slug": "palais+royal+(musee+du+louvre)",
+        "name": "Palais-Royal (Musee du Louvre)"
+      },
+      {
+        "slug": "tuileries",
+        "name": "Tuileries"
+      },
+      {
+        "slug": "concorde",
+        "name": "Concorde"
+      },
+      {
+        "slug": "champs+elysees+clemenceau",
+        "name": "Champs-Elysees-Clemenceau"
+      },
+      {
+        "slug": "franklin+roosevelt",
+        "name": "Franklin-Roosevelt"
+      },
+      {
+        "slug": "george+v",
+        "name": "George V"
+      },
+      {
+        "slug": "charles+de+gaulle+etoile",
+        "name": "Charles de Gaulle-Etoile"
+      },
+      {
+        "slug": "argentine",
+        "name": "Argentine"
+      },
+      {
+        "slug": "porte+maillot",
+        "name": "Porte Maillot"
+      },
+      {
+        "slug": "les+sablons+(jardin+d'acclimatation)",
+        "name": "Les Sablons (Jardin d'acclimatation)"
+      },
+      {
+        "slug": "pont+de+neuilly",
+        "name": "Pont de Neuilly"
+      },
+      {
+        "slug": "esplanade+de+la+defense",
+        "name": "Esplanade de la Defense"
+      },
+      {
+        "slug": "la+defense+(grande+arche)",
+        "name": "La Defense (Grande Arche)"
+      }
+    ]
+  },
+  "_metadata": {
+    "call": "GET /stations/metros/1",
+    "date": "2019-05-25T13:44:59+02:00",
+    "version": 3
+  }
+}

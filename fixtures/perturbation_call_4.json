@@ -1,0 +1,189 @@
+{
+  "result": {
+    "metros": [
+      {
+        "line": "1",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "2",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "3",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "3B",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "4",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "23/05/19, 18:31, le trafic est perturbé sur la ligne (incident voyageur)"
+      },
+      {
+        "line": "5",
+        "slug": "normal_trav",
+        "title": "Travaux",
+        "message": "Ts les jours la station Breguet-Sabin est fermée jusqu'au 30/06/19. (travaux)"
+      },
+      {
+        "line": "6",
+        "slug": "alerte",
+        "title": "Trafic perturbé",
+        "message": "23/05/19, 18:25, le trafic est perturbé sur la ligne (train en panne)"
+      },
+      {
+        "line": "7",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "7B",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "8",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "9",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "10",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "11",
+        "slug": "normal_trav",
+        "title": "Travaux",
+        "message": "Ts les jours l'arrêt n'est pas marqué à Chatelet jusqu'au 16/12/19. (travaux)"
+      },
+      {
+        "line": "12",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "13",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "14",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      }
+    ],
+    "rers": [
+      {
+        "line": "A",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "B",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "C",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "D",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "E",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      }
+    ],
+    "tramways": [
+      {
+        "line": "1",
+        "slug": "normal_trav",
+        "title": "Travaux",
+        "message": "Ts les jours le trafic est interrompu entre LES COURTILLES et MAIRIE DE VILLENEUVE-LA GARENNE de 22:00 à fin de service jusqu'au 23/05/19. Bus de remplacement à dispo. (travaux)"
+      },
+      {
+        "line": "2",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "3A",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "3B",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "5",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "6",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      },
+      {
+        "line": "7",
+        "slug": "normal_trav",
+        "title": "Travaux",
+        "message": "du D au V et le trafic est interrompu entre PORTE DE L'ESSONNE et COEUR D'ORLY de 21:00 à fin de service jusqu'au 23/05/19. Bus de remplacement à dispo. (travaux)"
+      },
+      {
+        "line": "8",
+        "slug": "normal",
+        "title": "Trafic normal",
+        "message": "Trafic normal sur l'ensemble de la ligne."
+      }
+    ]
+  },
+  "_metadata": {
+    "call": "GET /traffic",
+    "date": "2019-05-23T18:38:25+02:00",
+    "version": 3
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "kabri_proto",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "mocha --recursive tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/express": "github:feathersjs/express",
+    "@zeit/next-css": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "fs-extra": "^8.0.1",
+    "google-map-react": "^1.1.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "lodash": "^4.17.11",
+    "mocha": "^6.1.4",
+    "next": "^8.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "styled-components": "^4.2.0"
+  }
+}
