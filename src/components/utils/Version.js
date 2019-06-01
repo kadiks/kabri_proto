@@ -14,6 +14,8 @@ export default () => (
     }}
   >
     Version {Config.VERSION} - Basé sur l'API de{" "}
-    <a href="https://twitter.com/pgrimaud_">Pierre Grimaud</a>
+    <a href="https://twitter.com/pgrimaud_" target="_blank">
+      Pierre Grimaud
+    </a>
   </div>
 );

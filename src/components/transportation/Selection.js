@@ -22,6 +22,7 @@ class Selection extends React.Component {
     this.setState({
       selected
     });
+    this.props.onDeselect();
   }
   render() {
     const { onSelect } = this.props;
@@ -54,6 +55,7 @@ class Selection extends React.Component {
           elements={buttonGroupEls}
           onClick={this.onClickTab}
         />
+        <div style={{ height: 15 }} />
         {selected === "metros" && <Metros onSelect={onSelect} />}
         {selected === "rers" && <RERs onSelect={onSelect} />}
         {selected === "tramways" && <Tramways onSelect={onSelect} />}

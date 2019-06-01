@@ -1,102 +1,105 @@
 import React from "react";
-import Link from "next/link";
 
+import "bootstrap/dist/css/bootstrap-grid.min.css";
+import "../src/styles/main.css";
+
+import Api from "../src/utils/Api";
+import Map from "../src/components/map";
+import { Alert } from "../src/components/core";
+import Version from "../src/components/utils/Version";
 import Navigation from "../src/components/navigation";
+import TransportationSelection from "../src/components/transportation/Selection";
+import LineDetails from "../src/components/transportation/LineDetails";
 
-class Home extends React.Component {
+const REFRESH_INTERVAL = 5 * 60 * 1000;
+
+class Trial extends React.Component {
+  static async getInitialProps({ req }) {
+    const { locations, error } = await Api.getStationsInAlert();
+    // if (req) {
+    // console.log("ok");
+    // setTimeout(() => {
+    //   Home.getStationsInAlert();
+    // }, REFRESH_INTERVAL);
+    // // }
+    return { locations, error };
+  }
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      currentLine: {},
+      locations: props.locations,
+      error: props.error
+    };
+
+    this.getStationsInAlert = this.getStationsInAlert.bind(this);
+    this.onSelectTransportation = this.onSelectTransportation.bind(this);
+    this.onDeselectTransportation = this.onDeselectTransportation.bind(this);
+    this.timeout = null;
+  }
+
+  componentDidMount() {
+    console.log("#componentDidMount");
+    this.timeout = setTimeout(this.getStationsInAlert, REFRESH_INTERVAL);
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.timeout);
+  }
+
+  async getStationsInAlert() {
+    console.log("#getStationsInAlert");
+    const { locations, error } = await Api.getStationsInAlert();
+    this.setState(
+      {
+        locations,
+        error
+      },
+      () => {
+        this.timeout = setTimeout(this.getStationsInAlert, REFRESH_INTERVAL);
+      }
+    );
+  }
+
+  async onSelectTransportation({ line, type }) {
+    console.log("transportation", line, type);
+    const alert = await Api.getLineStatus({ type, line });
+    console.log("pages/trial#onSelectTransportation alert", alert);
+    this.setState({ currentLine: alert });
+  }
+
+  onDeselectTransportation() {
+    this.setState({ currentLine: {} });
+  }
+
   render() {
     return (
       <div>
-        <Navigation />
-        <header>
-          <div className="container" style={{ padding: 30 }}>
-            <div className="row">
-              <div className="col-12">
-                <h1>Kabri</h1>
-                <p className="tagline">
-                  Sautez de stations en stations pour avoir le taxi toujours en
-                  service
-                </p>
-                <form>
-                  <p>M'alerter de la sortie de l'application mobile</p>
-                  <input type="text" placeholder="Email" />
-                  <button>M'alerter</button>
-                </form>
-              </div>
+        {/* <Navigation /> */}
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-4" style={{ paddingTop: 30 }}>
+              <TransportationSelection
+                onDeselect={this.onDeselectTransportation}
+                onSelect={this.onSelectTransportation}
+              />
+              <Alert message={this.state.error} />
+              <LineDetails
+                line={this.state.currentLine}
+                locations={this.state.locations}
+              />
+              <Version />
+            </div>
+            <div className="col-8">
+              <Map markers={this.state.locations} />
             </div>
           </div>
-        </header>
-        <section className="features">
-          <div className="container">
-            <div className="row">
-              <div className="col-12">
-                <h2>Fonctionnalités</h2>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-6">
-                <ul>
-                  <li>Alertes lors de perturbations</li>
-                  <li>
-                    Alertes géolocalisées : seuls les alertes proches de vous
-                    vous sont notifiées
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
-            <div className="row">
-              <div className="col-12">
-                <h2>Prix</h2>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12">
-                <table>
-                  <thead>
-                    <tr>
-                      <td>Gratuit</td>
-                      <td>PRO</td>
-                      <td>PRO+</td>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Alertes en temps réel</td>
-                      <td>Alertes en temps réel</td>
-                      <td>Alertes en temps réel</td>
-                    </tr>
-                    <tr>
-                      <td />
-                      <td>Notifications</td>
-                      <td>Notifications</td>
-                    </tr>
-                    <tr>
-                      <td />
-                      <td />
-                      <td>Prévisions des zones d'affluences fortes</td>
-                    </tr>
-                    <tr className="price">
-                      <td>0€</td>
-                      <td>
-                        9,99€ <sup>H.T</sup>
-                      </td>
-                      <td>
-                        19,99€ <sup>H.T</sup>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
     );
   }
 }
 
-export default Home;
+export default Trial;

@@ -7,14 +7,14 @@ let map = null;
 let maps = null;
 
 const handleApiLoaded = (gmap, gmaps) => {
-  console.log(">> #handleApiLoaded");
+  console.log(">> #handleApiLoaded", gmap, gmaps);
   // use map and maps objects
   map = gmap;
   maps = gmaps;
 };
 
 const Marker = props => {
-  const size = 20;
+  const size = 25;
   if (props.type === "metros") {
     return <MetroMarker {...props} size={size} />;
   }
@@ -40,10 +40,10 @@ const MetroMarker = ({ line, name, color, size }) => {
       <p
         style={{
           position: "absolute",
-          top: -9,
+          top: -10,
           // left: 5,
           textAlign: "center",
-          width: size - 5
+          width: size - 10
         }}
       >
         {line}
